@@ -1,0 +1,35 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: blue;
+  height: 120px;
+}
+
+.header h1{
+  font-size: 32px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  background-color: pink;
+}
+
+.header ul{
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+.header ul li{
+  width: 80px;
+  height: 60px;
+  list-style: none;
+  text-align: center;
+}
