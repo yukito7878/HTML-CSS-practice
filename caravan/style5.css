@@ -9,27 +9,100 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  background-color: blue;
-  height: 120px;
+  margin: 0 auto;
 }
 
 .header h1{
   font-size: 32px;
-  height: 60px;
   display: flex;
   justify-content: center;
-  background-color: pink;
+  margin: 20px 0;
 }
 
 .header ul{
   display: flex;
   justify-content: center;
-  background-color: gray;
+  text-align: center;
+  margin: 15px 0;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  height: 100px;
+  line-height: 100px
 }
 
 .header ul li{
-  width: 80px;
-  height: 60px;
+  display: inline-block;
+  margin: 0 20px;
   list-style: none;
+}
+
+.main{
+  width: 800px;
+  margin: 50px auto;
+}
+
+.row{
+  height: 200px;
+  width: 800px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+}
+
+.row div{
+  height: 200px;
+  width: 200px;
+  border: 1px solid black;
+}
+
+.row0column0{
+  background-color: #e6ffe9;
+}
+.row0column1{
+  background-color: #cbffd3;
+}
+.row0column2{
+  background-color: #aeffbd;
+}
+.row0column3{
+  background-color: #93ffab;
+}
+.row1column0{
+  background-color: #f3ffd8;
+}
+.row1column1{
+  background-color: #edffbe;
+}
+.row1column2{
+  background-color: #e9ffa5;
+}
+.row1column3{
+  background-color: #e4ff8d;
+}
+.row2column0{
+  background-color: #d9e5ff;
+}
+.row2column1{
+  background-color: #bad3ff;
+}
+.row2column2{
+  background-color: #a4c6ff;
+}
+.row2column3{
+  background-color: #8eb8ff;
+}
+
+
+.footer{
+  display: flex;
+  height: 120px;
+  line-height: 120px;
+  justify-content: center;
   text-align: center;
+  background-color: black;
+}
+
+.footer a{
+  text-decoration: none;
+  color: white;
 }
