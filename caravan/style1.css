@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  width: 100%;
+  height: 120px;
+  background-color: gray;
+}
+
+.header-top{
+  width: 100%;
+  height: 60px;
+  background-color: pink;
+}
+
+.header-bottom{
+  width: 100%;
+  height: 60px;
+  background-color: hotpink;
+}
+
+.main-visual{
+  width: 100%;
+  height: 300px;
+  background-color: blue;
+}
+
+.main-visual-content{
+  width: 350px;
+  height: 300px;
+  background-color: gold;
+}
+
+.main{
+  width: 840px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.blog{
+  width: 600px;
+  height: 1400px;
+  background-color: red;
+}
+
+.sidebar{
+  width: 240px;
+  height: 1400px;
+  background-color: silver;
+}
+.footer{
+  width: 100%;
+  height: 120px;
+  background-color: black;
+}
