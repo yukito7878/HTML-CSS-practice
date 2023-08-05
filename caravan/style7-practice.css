@@ -1,0 +1,43 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 400px;
+  width: 100%;
+  background-image: url(img-chapter7/mv.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.header h2{
+  color: gray;
+  font-size: 40px;
+  padding: 20px 0 0 20px;
+}
+.website{
+  display: flex;
+  flex-direction: column;
+  width: 840px;
+  margin: 20px auto 0 auto;
+}
+
+.website-box{
+  padding: 30px 0 30px 0;
+  border-bottom: 1px solid gray;
+}
+
+.website-image{
+  height: auto;
+  width: 300px;
+}
+
+.website-text{
+  font-size: 20px;
+  color: gray;
+}
+.website-text a{
+  color: inherit;
+}
