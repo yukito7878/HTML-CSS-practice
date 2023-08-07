@@ -36,6 +36,7 @@ header .heading {
 .social i{
   display: inline-block;
   margin-left: 20px;
+  color: black;
 }
 
 .nav-list {
@@ -237,4 +238,42 @@ footer {
 
 .footer-text {
   color: #fff;
+}
+
+@media screen and (max-width: 768px){
+  .social i{
+    color: green;
+  }
+  .social{
+    display: none;
+  }
+  .nav-list{
+    display: flex;
+    flex-direction: column;
+  }
+  .nav-list-item {
+    display: block;
+    margin: 5px auto;
+  }
+  .main-visual-content {
+    width: 100%; 
+  }
+  main{
+    display: block;
+  }
+  .sidebar{
+    margin: 20px auto;
+  }
+  
+}
+
+
+@media screen and (max-width: 425px){
+  .social i{
+    color: blue;
+  }
+  .social{
+    display: none;
+  }
+  
 }
